@@ -18,7 +18,7 @@ const totalContribuicao = idade + tempContribuicao
 // Identifica se o sexo é FEMININO
 if (sexo == 'F'){
   // IDENTIFICA AS DUAS CONDIÇÕES RELACIONADAS AO TEMPO DE CONTRIBUICAO PARA O SEXO FEMININO
-  if ((totalContribuicao >= 85) && tempContribuicao >= 30){
+  if (totalContribuicao >= 85 && tempContribuicao >= 30){
     console.log(`${nome}, você está apto a se aposentar!`)
   }
   else{
@@ -28,7 +28,7 @@ if (sexo == 'F'){
   // AGORA, REALIZA AS ESTRUTURAS CONDICIONAIS PARA O SEXO MASCULINO
 } else{
   // IDENTIFICA AS DUAS CONDIÇÕES RELACIONADAS AO TEMPO DE CONTRIBUICAO PARA O SEXO MASCULINO
-  if ((totalContribuicao >= 95) && tempContribuicao >= 35){
+  if (totalContribuicao >= 95 && tempContribuicao >= 35){
     console.log(`${nome}, você está apto a se aposentar!`)
   }
   else{

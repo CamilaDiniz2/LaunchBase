@@ -29,5 +29,6 @@ header div a{
 
 header div a:hover{
   color: #775e88;
-  transition: color 400ms;
+  
+  transition: color 500ms;
 }
