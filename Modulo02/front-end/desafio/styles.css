@@ -13,7 +13,7 @@
 }
 
 body{
-  background-image: linear-gradient(#3b343f, #151218);
+  background-image: linear-gradient(#151218, #282429);
   color: #fff;
 }
 
@@ -114,7 +114,7 @@ header div a:hover{
  }
  
  .tools li img{
-   opacity: 0.6;
+   opacity: 0.3;
  }
 
  .tools li img:hover{
@@ -179,6 +179,11 @@ header div a:hover{
    justify-content: space-around;
    text-align: center;
    padding: 24px;
+ }
+
+ footer p{
+   font-size: 14px;
+   line-height: 24px;
  }
 
  footer .author{

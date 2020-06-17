@@ -114,3 +114,54 @@ header div{
   transition: 500ms; 
 }
 
+
+/*##### CARDS #####*/
+
+.cards{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: #7159c1;
+}
+
+.cards .card img{
+  width: 250px;
+  height: 80px;
+  margin-bottom: 24px;
+  
+}
+
+.cards .card h4{
+  font-size: 20px;
+  line-height: 30px;
+
+  letter-spacing: 1px;
+
+  padding-bottom: 24px;
+}
+
+.cards .card h5{
+  font-size: 16px;
+  line-height: 26px;
+
+  letter-spacing: 1px;
+
+  padding-bottom: 24px;
+}
+
+.cards .card p{
+  font-size: 14px;
+  line-height: 26px;
+
+  padding-bottom: 24px;
+}
+
+.cards .card a{
+  color: var(--color-purple);
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+}
+
