@@ -3,11 +3,17 @@
   <h2 align="center"> Desafio - Módulo: Iniciando o Front-end <h2>
 <h1>
 
-
 ## Sobre
 
-### A primeira parte consistiu em criar um arquivo html com um favicon da Rocketseat, e com um header contendo incialmente três links: Comunidade, Email e Telefone.
+ 🛰 A primeira parte consistiu em criar um arquivo html com um favicon da Rocketseat, e com um header contendo incialmente três links: Comunidade, Email e Telefone.
+
+<img  src="images/header.png" />
 
 
-### A segunda parte consistiu em adicionar no Header um link "Sobre" e esta seção conteria informações sobre a Rocketseat, como nome e logo da empresa, descrição da empresa, tecnologias utilizadas e por fim, links para as redes sociais da empresa.
+ 🛰 A segunda parte consistiu em adicionar no Header um link "Sobre" e esta seção conteria informações sobre a Rocketseat, como nome e logo da empresa, descrição da empresa, tecnologias utilizadas.
 
+<img  src="images/sobre.png" />
+
+🛰 Ainda na segunda parte do desafio, foi solicitado para adicionar os links para as redes sociais: Github, Facebook e Instagram da Rocketseat.
+
+<img  src="images/redessociais.png" />
