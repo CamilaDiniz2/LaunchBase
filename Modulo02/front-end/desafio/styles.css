@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root{
-  --color-purple: #6808a8;
-  --color-hover : #a77ac5;
+  --color-purple: #7159c1;
 }
 
 *{
@@ -13,7 +12,7 @@
 }
 
 body{
-  background-image: linear-gradient(#151218, #282429);
+  background-image: linear-gradient(#1d1822, #2d2b2e);
   color: #fff;
 }
 
@@ -38,8 +37,7 @@ header div a{
 }
 
 header div a:hover{
-  color: var(--color-hover);
-  
+  opacity: 0.7;
   transition: color 500ms;
 }
 
@@ -48,8 +46,6 @@ header div a:hover{
  justify-content: center;
 
  margin: 64px;
-
- 
 }
 
 #about .company-logo img{
@@ -114,7 +110,8 @@ header div a:hover{
  }
  
  .tools li img{
-   opacity: 0.3;
+   opacity: 0.6;
+   width: 120px;
  }
 
  .tools li img:hover{
