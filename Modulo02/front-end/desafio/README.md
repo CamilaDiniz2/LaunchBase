@@ -14,18 +14,28 @@
 
 ## Sobre
 
- 🛰 A primeira parte consistiu em criar um arquivo html com um favicon da Rocketseat, e com um header contendo incialmente três links: Comunidade, Email e Telefone.
+ #### 🛰  Deafio 2-1:
+ A primeira parte consistiu em criar um arquivo html com um favicon da Rocketseat, e com um header contendo incialmente três links: Comunidade, Email e Telefone.
 
-<img  src="images/header.png" />
+<img  src="images/readme/header.png" />
 
+#### 🛰 Desafio 2-2
+  A segunda parte consistiu em adicionar no Header um link "Sobre" e esta seção conteria informações sobre a Rocketseat, como nome e logo da empresa, descrição da empresa, tecnologias utilizadas.
 
- 🛰 A segunda parte consistiu em adicionar no Header um link "Sobre" e esta seção conteria informações sobre a Rocketseat, como nome e logo da empresa, descrição da empresa, tecnologias utilizadas.
-
-<img  src="images/sobre.png" />
+<img  src="images/readme/about.png" />
 
 🛰 Ainda na segunda parte do desafio, foi solicitado para adicionar os links para as redes sociais: Github, Facebook e Instagram da Rocketseat.
 
-<img  src="images/redessociais.png" />
+#### 🛰 Desafio 2-3
+Adicionar no header um link com o nome "Conteúdos" . A página possui um grid com 3 divisões contendo os cursos disponíveis na Rocketseat: Starter, LauchBase e GoStack. Ao clicar em um dos cursos deve aparecer um modal com informações sobre o curso selecionado.
+
+Cada card do curso contém: Logo do curso, título do curso, quantidade de módulos do curso e Informação se trata-se de um curso pago ou gratuito. O estilo dos cards foi baseado no próprio site da Rocketseat, com cores, formatos e disposição dos ícones.
+
+<img  src="images/readme/cursos.png" />
+
+O modal contém um iframe que busca a página do curso. Contém um botão de fechar, maximizar o modal.
+
+<img  src="images/readme/modal.png" />
 
 
 ---
@@ -34,6 +44,7 @@
 Projeto desenvolvido com uso das seguintes ferramentas:
 - HTML
 - CSS
+- Javascript
 
 ---
 
@@ -48,6 +59,10 @@ As imagens utilizadas neste projeto foram obtidas nas seguintes fontes:
  - <a target="_blank" href="https://icons8.com/icons/set/nodejs">Nodejs icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
  - <a target="_blank" href="https://icons8.com/icons/set/react">React icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
  - <a target="_blank" href="https://icons8.com/icons/set/react-native">React Native icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+ - <a target="_blank" href="https://icons8.com/icons/set/rocket">Rocket icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+ - <a target="_blank" href="https://icons8.com/icons/set/1-c">Number 1 icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+ - https://google.github.io/material-design-icons/
+ 
 
 ---
 Desenvolvido por ✨ Camila Almeida Diniz.

@@ -12,7 +12,7 @@
 }
 
 body{
-  background-image: linear-gradient(#1d1822, #2d2b2e);
+  background-color: #1d1822;
   color: #fff;
 }
 
@@ -39,6 +39,10 @@ header div a{
 header div a:hover{
   opacity: 0.7;
   transition: color 500ms;
+}
+
+header .logo-image img{
+  cursor: pointer;
 }
 
 #about .company-logo{
@@ -72,7 +76,7 @@ header div a:hover{
 
   margin-left: 128px;
 
-  background-image: url("images/rocket.svg");
+  background-image: url("images/index/rocket.png");
   background-repeat: no-repeat;
   background-size: 75px 75px;
  }
@@ -185,4 +189,174 @@ header div a:hover{
 
  footer .author{
    align-self: center;
+ }
+
+
+ /* =============**============
+          CARDS
+    =============**============
+ */
+
+ .cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+
+   gap: 12px;
+
+   margin: 128px 0;
+ }
+
+ .cards .card{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 1px solid rgb(138, 132, 132);
+  border-radius: 10px;
+
+  text-align: center;
+
+  background-color: #1d182211;
+
+  cursor: pointer;
+ }
+
+.cards .card:hover{
+  width: 510px;
+  background-color: #140f1a75;
+ }
+
+ #starter:hover{
+   border: 2px solid #7159c1;
+ }
+
+ #launchbase:hover{
+  border: 2px solid rgb(253, 149, 31);
+}
+
+#gostack:hover{
+  border: 2px solid rgb(4, 211, 97);
+}
+
+.cards .card img{
+   width: 200px;
+   padding-top: 80px;
+ }
+
+.cards #launchbase img{
+   width: 320px;
+ }
+
+.cards #gostack img{
+  width: 225px;
+}
+
+.cards .card subtitle{
+  width: 85%;
+}
+
+.cards .card .info-cursos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  width: 90%;
+ }
+
+ #starter h4{
+   color: #7159c1;
+ }
+
+ #launchbase h4{
+  color: rgb(253, 149, 31)
+ }
+
+ #gostack h4{
+  color: rgb(4, 211, 97)
+ }
+
+
+.cards .card h4{
+  padding-top: 64px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.cards .card p{
+  opacity: 0.6;
+ 
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 80px;
+}
+
+
+ /* =============**============
+          MODALS
+    =============**============
+ */
+
+ .modal-overlay{
+   background-color: rgba(0, 0, 0, 0.603);
+
+   width: 100%;
+   height: 100%;
+
+   position: fixed;
+   top: 0;
+
+   opacity: 0;
+   visibility: hidden;
+ }
+
+.modal{
+  background-color: #fff;
+
+  width: 80%;
+  height: 80%;
+  position: relative;
+
+  margin: 5vh auto;
+}
+
+.modal .close-modal{
+  color: #7159c1;
+
+  position: absolute;
+  right: 8px;
+  top: 8px;
+
+  cursor: pointer;
+}
+
+.modal .maximize-modal{
+  color: #7159c1;
+
+  position: absolute;
+  right: 48px;
+  top: 8px;
+
+  cursor: pointer;
+}
+
+/* =============**============
+          MODAL.ACTIVE
+    =============**============
+ */
+
+ .modal-overlay.active{
+   opacity: 1.0;
+   visibility: visible;
+ }
+
+ .modal.maximize{
+   width: 100%;
+   height: 100%;
+ }
+
+ iframe{
+   width: 100%;
+   height: 95%;
+   position: absolute;
+   top: 5%
  }
