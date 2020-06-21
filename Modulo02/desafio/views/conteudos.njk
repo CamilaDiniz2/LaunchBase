@@ -1,0 +1,52 @@
+<!-- As imagens utilizadas neste projeto foram obtidas nos seguintes sítios:
+    https://rocketseat.com.br
+
+    https://icons8.com/
+
+-->
+
+{% extends "layout.njk" %}
+
+  {% block head %}
+    <title>.: Conteúdos - Rocketseat </title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+  {% endblock %}
+
+{% block content %}
+
+<div class="cursos">
+  <h1>Cursos Ofertados</h1>
+</div>
+
+<div class="cards">
+
+  {% for item in items %}
+  <div class="card" id="{{item.id}}">
+    <h2>{{item.number}}</h2>
+    <img 
+      src="{{item.image}}" 
+      alt="Logo do Curso {{item.id}}">
+    <div class="subtitle">
+      <h4>{{item.subtitle1}}</h4>
+      <p>{{item.subtitle2}}</p>
+    </div>
+    <div class="info-cursos">
+      <p>{{item.numOfModules}} </p>
+      <p> {{item.typeOfCourse}} </p>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+{% include "social-media.njk" %}
+
+
+{% include "modal.njk" %}
+
+
+<script src="main.js"></script>     
+
+{% endblock %}

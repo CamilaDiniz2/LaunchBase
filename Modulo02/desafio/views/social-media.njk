@@ -1,0 +1,12 @@
+<div>
+  <ul class="socialmedia">
+    {% for media in medias %}
+    <li>
+      <a href="{{media.reference}}" target="_blank"> 
+      <img src="{{media.image}}" alt="Logo do {{media.title}}">
+      <p>  {{media.title}} </p>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

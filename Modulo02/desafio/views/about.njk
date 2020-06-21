@@ -1,0 +1,50 @@
+<!-- As imagens utilizadas neste projeto foram obtidas nos seguintes sítios:
+    https://rocketseat.com.br
+
+    https://icons8.com/
+
+    https://www.flaticon.com/
+-->
+
+{% extends "layout.njk" %}
+
+  {% block head %}
+      <title> .: Rocketseat </title>
+  {% endblock %}
+
+{% block content %}
+
+<div id="about">
+  <div class="company-logo">
+    <img src="{{about.imageRocketseat}}" alt="Logo da Rocketseat">
+    <h1> {{about.title}} </h1>
+  </div>
+</div>
+
+<div class="company-info">
+   <div class="info">
+    
+    <p> {{about.description1}} </p>
+    <p> {{about.description2}} </p>
+    
+    <p> {{about.description3}} </p>
+  </div>
+
+  <div class="tecnologies">
+    <h3> Utilizamos as seguintes ferramentas: </h3>
+      <ul class="tools">
+        {% for item in items%}
+        <li>
+          <img src="{{item.image}}" alt="Logo do {{item.title}}"> 
+          <br/>
+          <p> {{item.title}} </p> 
+        </li>
+        {% endfor %}
+      </ul>
+  </div>
+</div>
+
+
+{% include "social-media.njk" %}
+ 
+{% endblock %}
