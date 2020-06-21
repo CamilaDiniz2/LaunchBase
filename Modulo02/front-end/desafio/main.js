@@ -1,6 +1,6 @@
 const modalOverlay  = document.querySelector(".modal-overlay")
 const modal = document.querySelector(".modal")
-
+const backgroundwhite = document.querySelector("body")
 const cards = document.querySelectorAll(".card")
 
 for (let card of cards){
@@ -20,7 +20,7 @@ document.querySelector('.close-modal')
     modal.classList.remove("maximize")
   })
 
-  document.querySelector('.maximize-modal')
+document.querySelector('.maximize-modal')
   .addEventListener("click", function(){
     if (!modal.classList.contains("maximize")){
       modal.classList.add("maximize")
@@ -28,7 +28,4 @@ document.querySelector('.close-modal')
       modal.classList.remove("maximize")
     }
   })
-
-
-
 
