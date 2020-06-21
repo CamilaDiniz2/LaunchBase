@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+  --color-purple: rgb(199, 94, 223);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: #282a36;
+  color: #fff;
+}
+
+header{
+  padding: 24px;
+  border-bottom: 1px solid #333;
+  background-color: rgba(0, 0, 0, 0.274);
+}
+
+header div{
+  text-align: end;
+}
+
+
+.links a{
+  color: #fff;
+  font-size: 20px;
+  line-height: 34px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.links a:hover{
+  color: var(--color-purple);
+  transition: 500ms;
+}
+
+#wrapper{
+  padding: 64px;
+  text-align: center;
+}
+
+#wrapper h1{
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-bottom: 32px;
+}
+
+#wrapper img{
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid var(--color-purple);
+  box-shadow: rgb(49, 47, 47) 5px 5px 2px;
+  margin-bottom: 32px;
+}
+
+#wrapper h2{
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: normal;
+  opacity: 0.7;
+  letter-spacing: 1.5px;
+  margin-bottom: 32px;
+}
+
+#wrapper p{ 
+  max-width: 500px;
+  margin: 0 auto;
+
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  opacity: 0.5;
+  
+  border-bottom: #fff 1px solid;
+  border-top: 1px solid #fff;
+  padding: 5px;
+}
+
+.socialMedia{
+  display: flex;
+  justify-content: center;
+  margin: 32px 128px;
+}
+
+.socialMedia .rede-social{
+  margin: 0px 32px
+}
+
+.socialMedia .rede-social a{
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.socialMedia .rede-social img{
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  opacity: 0.7;
+}
+
+.socialMedia .rede-social a img:hover{
+  opacity: 1.0;
+  transition: 500ms;
+}
+
+.socialMedia .rede-social a p:hover{
+  opacity: 0.5;
+  text-decoration: none;
+  transition: 500ms; 
+}
+
+
+/*##### CARDS #####*/
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  
+}
+
+.cards .card{
+  background-color: #282a36;
+  filter: brightness(90%);
+  
+  text-align: center;
+  border-left: 1px solid rgba(0, 0, 0, 0.253);
+  border-radius: 10px;
+
+  padding: 24px;
+}
+
+.cards .card:hover{
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.cards .card a{
+  text-decoration: none;
+  color: #fff;
+}
+.cards .card a img{
+  width: 200px;
+}
+
+.cards .card a h1{
+  text-align: center;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 1px;
+  font-weight: normal;
+
+}
+
+.cards .card p{
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+/* ############
+      MODAL    
+  ############# */
+
+  .modal-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .modal{
+    background-color: rgba(0, 0, 0, 0.904);
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    
+    position: relative;
+  }
+
+  .modal .close-modal{
+    color: rgb(212, 199, 199);
+
+    position: absolute;
+    right: 15px;
+    top: 15px;
+
+    cursor: pointer;
+  }
+
+/* ############
+      MODAL.ACTIVE    
+  ############# */
+
+  .modal-overlay.active{
+    opacity: 1.0;
+    visibility: visible;
+  }
+
+  iframe {
+    width: 80%;
+    height: 80%;
+
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
