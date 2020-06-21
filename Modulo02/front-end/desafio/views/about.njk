@@ -1,0 +1,67 @@
+<!-- As imagens utilizadas neste projeto foram obtidas nos seguintes sítios:
+    https://rocketseat.com.br
+
+    https://icons8.com/
+
+    https://www.flaticon.com/
+-->
+
+{% extends "layout.njk" %}
+
+  {% block head %}
+      <title> .: Rocketseat </title>
+  {% endblock %}
+
+{% block content %}
+
+<div id="about">
+  <div class="company-logo">
+    <img src="https://rocketseat.com.br/static/images/logo-rocketseat.svg" alt="Logo da Rocketseat">
+    <h1> Rocketseat </h1>
+  </div>
+</div>
+
+<div class="company-info">
+   <div class="info">
+    
+    <p> A Rocketseat é uma empresa que leva educação para todos os lugares
+      do Brasil. </p>
+    <p> Produrando direcionar seu foco para as ferramentas mais utiizadas nas melhores empresas </p>
+    
+    <p> Venha fazer parte do nosso time !!!</p>
+  </div>
+
+  <div class="tecnologies">
+    <h3> Utilizamos as seguintes ferramentas: </h3>
+      <ul class="tools">
+        <li>
+          <img src="images/index/javascript.png" alt="Logo do Javascript"> 
+          <br/>
+          <p> Javascript </p> 
+        </li>
+        <li>
+          <img src="images/index/nodejs.png" alt="Logo do NodeJS">
+          <br/> 
+          <p> NodeJS </p>
+        </li>
+        
+        <li>
+          <img src="images/index/react.png" alt="Logo do NodeJS">
+          <br/> 
+          <p> React </p>
+        </li>
+
+        <li>
+          <img src="images/index/react-native.png" alt="Logo do NodeJS">
+          <br/> 
+          <p> React Native </p>
+        </li>
+      </ul>
+      
+  </div>
+</div>
+
+
+{% include "social-media.njk" %}
+ 
+{% endblock %}

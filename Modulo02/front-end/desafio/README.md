@@ -7,22 +7,27 @@
 # Índice
 
 - [Sobre](#-sobre)
+  - [Front-end](#-front-end)
+  - [Back-end](#-back-end)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Imagens utilizadas](#-imagens-utilizadas)
 
 ---
 
 ## Sobre
+O desafio consistiu em fazer um site para a Rocketseat. A primeira parte do desafio se dedicou a parte do front-end. Já a segunda parte foi voltada ao back-end
+
+### Front-end
 
  #### 🛰  Deafio 2-1:
  A primeira parte consistiu em criar um arquivo html com um favicon da Rocketseat, e com um header contendo incialmente três links: Comunidade, Email e Telefone.
 
-<img  src="images/readme/header.png" />
+<img  src="public/images/readme/header.png" />
 
 #### 🛰 Desafio 2-2
   A segunda parte consistiu em adicionar no Header um link "Sobre" e esta seção conteria informações sobre a Rocketseat, como nome e logo da empresa, descrição da empresa, tecnologias utilizadas.
 
-<img  src="images/readme/about.png" />
+<img  src="public/images/readme/sobre.png" />
 
 🛰 Ainda na segunda parte do desafio, foi solicitado para adicionar os links para as redes sociais: Github, Facebook e Instagram da Rocketseat.
 
@@ -31,12 +36,18 @@ Adicionar no header um link com o nome "Conteúdos" . A página possui um grid c
 
 Cada card do curso contém: Logo do curso, título do curso, quantidade de módulos do curso e Informação se trata-se de um curso pago ou gratuito. O estilo dos cards foi baseado no próprio site da Rocketseat, com cores, formatos e disposição dos ícones.
 
-<img  src="images/readme/cursos.png" />
+<img  src= "public/images/readme/cursos.png" />
 
 O modal contém um iframe que busca a página do curso. Contém um botão de fechar, maximizar o modal.
 
-<img  src="images/readme/modal.png" />
+<img  src="public/images/readme/modal.png" />
 
+### Back-end
+
+#### 🛰 Desafio 3.1
+Criar o servidor contendo duas rotas com os conteúdos desenvolvidos na parte do [front-end](#-front-end). Além da implementação de um arquivo padrão chamado layout.njk e um arquivo not-fount.njk que seria uma página de erro 404.
+
+<img src="public/images/readme/not-found.png">
 
 ---
 
@@ -62,8 +73,7 @@ As imagens utilizadas neste projeto foram obtidas nas seguintes fontes:
  - <a target="_blank" href="https://icons8.com/icons/set/rocket">Rocket icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
  - <a target="_blank" href="https://icons8.com/icons/set/1-c">Number 1 icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
  - https://google.github.io/material-design-icons/
- 
-
+ - <a target="_blank" href="https://icons8.com/icons/set/broken-link">Broken Link icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 ---
 Desenvolvido por ✨ Camila Almeida Diniz.
 <br/>

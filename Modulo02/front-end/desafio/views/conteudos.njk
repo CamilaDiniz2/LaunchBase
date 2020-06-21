@@ -1,0 +1,73 @@
+<!-- As imagens utilizadas neste projeto foram obtidas nos seguintes sítios:
+    https://rocketseat.com.br
+
+    https://icons8.com/
+
+-->
+
+{% extends "layout.njk" %}
+
+  {% block head %}
+    <title>.: Conteúdos - Rocketseat </title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+  {% endblock %}
+
+{% block content %}
+
+<div class="cursos">
+  <h1>Cursos Ofertados</h1>
+</div>
+
+<div class="cards">
+  <div class="card" id="starter">
+    <h2>01</h2>
+    <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="Logo do Curso Starter">
+    <div class="subtitle">
+      <h4>Torne-se um programador desejado</h4>
+      <p>no mercado com esses cursos gratuitos</p>
+    </div>
+    <div class="info-cursos">
+      <p> Módulos: 5 </p>
+      <p> Tipo: Gratuito </p>
+    </div>
+  </div>
+
+  <div class="card" id="launchbase">
+    <h2>02</h2>
+    <img src="https://skylab.rocketseat.com.br/static/media/LaunchBase.08285320.svg" alt="Logo do Curso Starter">
+    <div class="subtitle">
+      <h4>Torne-se um programador desejado</h4>
+      <p>no mercado com esses cursos gratuitos</p>
+    </div>
+    <div class="info-cursos">
+      <p> Módulos: 5 </p>
+      <p> Tipo: Gratuito </p>
+    </div>
+  </div>
+
+  <div class="card" id="gostack">
+    <h2>03</h2>
+    <img src="https://skylab.rocketseat.com.br/static/media/GoStack.83a178a0.svg" alt="Logo do Curso GoStack">
+    <div class="subtitle">
+      <h4> Treinamento imersivo</h4>
+      <p>nas tecnologias mais modernas de desenvolvimento web e mobile</p>
+    </div>
+    <div class="info-cursos">
+      <p> Módulos: 8 </p>
+      <p> Tipo: Pago </p>
+    </div>
+  </div>
+
+</div>
+
+{% include "social-media.njk" %}
+
+
+{% include "modal.njk" %}
+
+
+<script src="main.js"></script>     
+
+{% endblock %}
